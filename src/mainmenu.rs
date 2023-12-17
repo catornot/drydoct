@@ -14,7 +14,6 @@ static NAME_PLATE: Lazy<Vec<String>> = Lazy::new(|| {
         .map(str::to_string)
         .collect::<Vec<String>>()
 });
-// const ASCII_ART: &str = include_str!("..\\art.txt");
 
 #[derive(Default)]
 pub struct MainMenu {
